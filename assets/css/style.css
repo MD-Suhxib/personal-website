@@ -3,10 +3,10 @@
 
 /* Variables */
 :root {
-    --c-brand: #845EC2;
-    --c-brand-rgb: 248, 54, 145;
-    --c-dark: #303050;
-    --c-body: #636383;
+    --c-brand: #C9C9C0;
+    /* --c-brand-rgb: 248, 54, 145; */
+    /* --c-dark: #303050; */
+    --c-body: #C9C9C0;
     --f-main: "Bai Jamjuree", san-serif;
     --transition: all .6s cubic-bezier(.165, .84, .44, 1);
     --shadow: 0px 15px 40px rgba(0, 0, 0.1);
@@ -91,7 +91,7 @@ img {
 .navbar.scrolled{
     padding-top: 7px;
     padding-bottom: 7px;
-    background-color: whitesmoke;
+    background-color: #3E3C38;
 }
 .navbar-toggler{
     border-radius: 0;
@@ -111,12 +111,12 @@ img {
 
 .navbar .navbar-nav .nav-link {
     font-weight: 700;
-    color: black;
+    color: white;
 }
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--c-brand);
+    color: white;
 }
 
 .navbar-brand {
@@ -129,7 +129,7 @@ img {
     width: 36px;
     height: 36px;
     background-color: var(--c-brand);
-    color: white;
+    color: black;
     border: 2px solid var(--c-brand);
     display: inline-flex;
     align-items: center;
@@ -153,7 +153,7 @@ img {
 .btn-brand,
 btn-brand:focus {
     background-color: var(--c-brand);
-    color: white;
+    color: black;
     border-color: var(--c-brand);
 }
 
@@ -165,19 +165,24 @@ btn-brand:focus {
 
 /* Hero sec */
 #home {
-    background-image: url(../images/final\ back.png);
+    /* background-image: url(../images/final\ back.png); u have to make one background image */ 
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
+    background-color: #090908;
 }
 
 /* services */
+#services {
+    /* background-color: #C9C9C0; */
+    background-color: black;
+}
 .service-icon{
     width: 60px;
     height: 60px;
     background-color: var(--c-brand);
-    color: white;
+    color: black;
     font-size: 26px;
     display: inline-flex;
     align-items: center;
@@ -199,7 +204,7 @@ btn-brand:focus {
     justify-content: center;
     background-color: var(--c-brand);
     border-radius: 100px;
-    color: white;
+    color: black;
     margin-left: 6px;
     transition: var(--transition);
 }
@@ -209,6 +214,12 @@ btn-brand:focus {
 }
 
 /* Project */
+#work{
+    background-color: #090908;
+}
+#work p {
+    font-size: 22px;
+}
 .project{
     overflow: hidden;
     position: relative;
@@ -217,7 +228,7 @@ btn-brand:focus {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: var(--c-brand);
+    background-color: #3E3C38;
     width: 100%;
     height: 100%;
     display: flex;
@@ -237,6 +248,12 @@ btn-brand:focus {
 }
 
 /* contact */
+#contact{
+    background-color: #090908;
+}
+#contact h2{
+    padding-bottom: 26px;
+}
 #contact .form-control{
     border-radius: 0;
 }
