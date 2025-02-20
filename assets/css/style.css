@@ -293,3 +293,13 @@ footer ul{
     padding-top: 40px;
     padding-bottom: 40px;
 }
+.hero-image {
+    max-width: 100%; /* Ensure image is responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+.small-image {
+    max-width: 80%;
+    height: auto;
+
+}
