@@ -301,5 +301,18 @@ footer ul{
 .small-image {
     max-width: 70%;
     height: auto;
+    display: block;
+    margin: 0 auto;
 
+}
+@media (max-width: 768px) {
+    .small-image {
+        max-width: 80%; /* Slightly increase for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .small-image {
+        max-width: 90%; /* Further increase for very small screens */
+    }
 }
